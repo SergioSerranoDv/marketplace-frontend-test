@@ -14,9 +14,13 @@ export const Index = () => {
   const [maxValue, setMaxValue] = useState<number>(0)
   const [priceRange, setPriceRange] = useState<number>(0)
   const [openFilters, setOpenFilters] = useState<boolean>(false)
-  const { products, loading } = UseGetProducts()
+  const { products = [], loading } = UseGetProducts()
 
   const filteredProducts = useMemo(() => {
+    if (products.length === 0) {
+      return []
+    }
+
     return products.filter((product: Product) => {
       const nameMatch =
         search !== "" ? product.name.toLowerCase().includes(search.toLowerCase()) : true
