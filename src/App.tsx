@@ -8,7 +8,7 @@ import "./App.css"
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/">
       <Routes>
         <Route path="/" element={<Index />}></Route>
         <Route
