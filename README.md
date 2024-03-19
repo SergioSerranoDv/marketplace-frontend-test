@@ -204,6 +204,12 @@ The application meets the following requirements
 ![VPS](https://github.com/SergioSerranoDv/marketplace-frontend-test/assets/93232800/45591b86-25ed-4093-a16b-f7b1bb58f6c7)
 
 ## Roles
-### Seler
+### Seller
 When the user login on the application, the role assigned is Seller. 
+### Administrator 
+The admin role is asigned in the database.
+
+
+
+
 
