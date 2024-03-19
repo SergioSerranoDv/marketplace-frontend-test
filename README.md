@@ -209,6 +209,44 @@ When the user login on the application, the role assigned is Seller.
 ### Administrator 
 The admin role is asigned in the database.
 
+## Aplication Flow
+The user start the flow on  https://test-app-magiclog.wango.pro/. The user will find some products, he can filter by name, price and sku. 
+Log In
+In the upper corner the start button is displayed, when the user click will this will promt a modal with the form to log in or sign up.
+![image](https://github.com/SergioSerranoDv/marketplace-frontend-test/assets/93232800/3bd172ee-3449-441e-ab27-593bc3866b86)
+The user 
+
+# User Manual
+This documentation is designed to provide all the information that require a user to use the marketplace in the web.
+## System Requirements
+To access the marketplace web application, ensure your system meets the following requirements:
+
+• Operating system: Windows/Linux/MacOS
+• Browser: Google Chrome/Safari/Mozilla Firefox/Opera (Google Chrome es el navegador
+recomendado)
+• Internet connection
+• Device: Tablet, laptop o teléfono móvil 
+## User interface
+
+### Main Page 
+Upon accessing the main page, users will encounter a curated selection of products. Here, users can perform the following actions:
+
+•Filter products by name, price, and SKU.
+• Add products to their cart by clicking the "Agregar al carrito" button.
+• View and manage the contents of their cart by hovering over the cart icon located in the upper right corner.
+• Adjust the quantity of products in the cart by incrementing, decrementing, or directly changing the quantity.
+  
+Path = https://test-app-magiclog.wango.pro/dashboard
+This is the dashboard page, here the user manage the products as seller, with the CRUD operations.
+
+## Operations
+Add new product
+The user presses the button Crear nuevo producto and complete the form with the required data: 
+SKU, Nombre, Cantidad and Precio.
+
+
+
+
 
 
 
