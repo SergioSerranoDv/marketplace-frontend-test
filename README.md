@@ -192,5 +192,18 @@ server {
 }
 
 ```
+# Functional Documentation
+The application starts the flow on https://test-app-magiclog.wango.pro/. The user can interact with the system with 2 types of roles: seller and admin.
 
+## User stories 
+The application meets the following requirements 
+![image](https://github.com/SergioSerranoDv/marketplace-frontend-test/assets/93232800/205154f1-ed49-4fe2-8946-93e5726c9060)
+
+## Architecture diagram
+
+![VPS](https://github.com/SergioSerranoDv/marketplace-frontend-test/assets/93232800/45591b86-25ed-4093-a16b-f7b1bb58f6c7)
+
+## Roles
+### Seler
+When the user login on the application, the role assigned is Seller. 
 
