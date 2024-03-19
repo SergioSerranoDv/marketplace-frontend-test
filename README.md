@@ -138,7 +138,7 @@ The application use Redux to manage the cart sate, following the next files stru
 The authentications is based on JSON web tokens, token expires after one hour.
 ### Endpoint to get a token
 ```
-`https://test-api-magiclog.wango.pro/v1/auth/login`
+https://test-api-magiclog.wango.pro/v1/auth/login
 ```
 ### Payload
 The payload is based on the next structure 
