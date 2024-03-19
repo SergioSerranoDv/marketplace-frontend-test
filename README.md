@@ -134,6 +134,9 @@ The application use Redux to manage the cart sate, following the next files stru
 │   │   │   └── cart.ts
 │   │   └── store.ts
 ```
+## Authentication
+The authentications is based on JSON web tokens, token expires after one hour.
+
 ## Scripts to run de application
 In the project directory, you can run
 ### `npm start`
