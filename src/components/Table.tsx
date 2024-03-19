@@ -1,7 +1,6 @@
 import React, { useState } from "react"
 import { Pagination } from "./Pagination"
 import { ContainerTable, TableStyled, TableThead, TableTd } from "../styles/components/Table"
-import styled from "styled-components"
 
 interface TableProps {
   columns: Array<any>

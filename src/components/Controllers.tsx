@@ -16,9 +16,7 @@ import {
 interface ControllersProps {
   item: ProductCart
 }
-interface StateProps {
-  cart: ProductCart[]
-}
+
 interface DispatchProps {
   removeProduct: (id: string) => void
   incrementQuantity: (id: string) => void

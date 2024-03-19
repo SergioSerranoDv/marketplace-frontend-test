@@ -4,7 +4,7 @@ import { Table } from "../components/Table"
 import { SideBar } from "../components/SideBar"
 import { UseGetProducts } from "../Hooks.ts/UseGetProducts"
 import { Product } from "../interfaces/Product"
-import { Container, Main } from "../styles/pages/Dashboard"
+import { Main } from "../styles/pages/Dashboard"
 
 export const AdminProducts = () => {
   const { products } = UseGetProducts()

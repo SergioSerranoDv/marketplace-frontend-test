@@ -1,5 +1,4 @@
 import { ProductCart } from "../../interfaces/Product"
-import { AddToCartAction } from "../actions/cart"
 export interface CartState {
   cart: ProductCart[]
 }
