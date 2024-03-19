@@ -220,12 +220,10 @@ The user
 This documentation is designed to provide all the information that require a user to use the marketplace in the web.
 ## System Requirements
 To access the marketplace web application, ensure your system meets the following requirements:
-
-• Operating system: Windows/Linux/MacOS
-• Browser: Google Chrome/Safari/Mozilla Firefox/Opera (Google Chrome es el navegador
-recomendado)
-• Internet connection
-• Device: Tablet, laptop o teléfono móvil 
+- **Operating system:** Windows/Linux/MacOS
+- **Browser:** Google Chrome/Safari/Mozilla Firefox/Opera (Google Chrome es el navegador recomendado)
+- **Internet connection**
+- **Device:** Tablet, laptop o teléfono móvil
 ## User interface
 
 ### Main Page 
