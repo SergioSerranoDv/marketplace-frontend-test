@@ -124,7 +124,16 @@ Cloning the repository will result in the following files:
 ├── package.json
 └── tsconfig.json
 ```
-
+## Redux Structure 
+The application use Redux to manage the cart sate, following the next files structure.
+```
+│   ├── state
+│   │   ├── actions
+│   │   │   └── cart.ts
+│   │   ├── reducers
+│   │   │   └── cart.ts
+│   │   └── store.ts
+```
 ## Scripts to run de application
 In the project directory, you can run
 ### `npm start`
