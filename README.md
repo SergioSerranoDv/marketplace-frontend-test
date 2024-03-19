@@ -229,10 +229,10 @@ To access the marketplace web application, ensure your system meets the followin
 ### Main Page 
 Upon accessing the main page, users will encounter a curated selection of products. Here, users can perform the following actions:
 
-•Filter products by name, price, and SKU.
-• Add products to their cart by clicking the "Agregar al carrito" button.
-• View and manage the contents of their cart by hovering over the cart icon located in the upper right corner.
-• Adjust the quantity of products in the cart by incrementing, decrementing, or directly changing the quantity.
+- Filter products by name, price, and SKU.
+- Add products to their cart by clicking the "Agregar al carrito" button.
+- View and manage the contents of their cart by hovering over the cart icon located in the upper right corner.
+- Adjust the quantity of products in the cart by incrementing, decrementing, or directly changing the quantity.
   
 Path = https://test-app-magiclog.wango.pro/dashboard
 This is the dashboard page, here the user manage the products as seller, with the CRUD operations.
