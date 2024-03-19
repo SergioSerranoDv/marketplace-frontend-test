@@ -1,5 +1,6 @@
 # MagicLog technical test 
 The application is build with react, leveraging its component-based architecture. Additionally, it adheres to SOLID principles, ensuring robutness, maintainability, and scalability. 
+![image](https://github.com/SergioSerranoDv/marketplace-frontend-test/assets/93232800/a2096b60-028b-4f25-97d7-ffc4a77b4c38)
 
 ## Directories structure ASCII
 Cloning the repository will result in the following files:
