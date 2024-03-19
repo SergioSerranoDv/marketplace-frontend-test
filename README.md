@@ -136,6 +136,19 @@ The application use Redux to manage the cart sate, following the next files stru
 ```
 ## Authentication
 The authentications is based on JSON web tokens, token expires after one hour.
+### Endpoint to get a token
+```
+`https://test-api-magiclog.wango.pro/v1/auth/login`
+```
+### Payload
+The payload is based on the next structure 
+```
+{
+  user: "unique identifier",
+  email: "user email",
+  role: "["user role"]" default to seller 
+}
+```
 
 ## Scripts to run de application
 In the project directory, you can run
@@ -157,5 +170,26 @@ The build is minified and the filenames include the hashes.\
 
 ## Deployment 
 The application is deployed on vps with the use of nginx as reverse proxy and pm2 as services manager.
+```
+server {
+    listen 443 ssl;
+    server_name test-app-magiclog.wango.pro;
+    ssl_certificate /etc/letsencrypt/live/test-app-magiclog.wango.pro/fullchain.pem; # managed by Certbot
+    ssl_certificate_key /etc/letsencrypt/live/test-app-magiclog.wango.pro/privkey.pem; # managed by Certbot
+
+
+
+    location / {
+        proxy_pass http://127.0.0.1:3001;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto $scheme;
+    }
+
+
+}
+
+```
 
 
