@@ -234,13 +234,21 @@ Upon accessing the main page, users will encounter a curated selection of produc
 - View and manage the contents of their cart by hovering over the cart icon located in the upper right corner.
 - Adjust the quantity of products in the cart by incrementing, decrementing, or directly changing the quantity.
   
+## Dashboard Page
 Path = https://test-app-magiclog.wango.pro/dashboard
 This is the dashboard page, here the user manage the products as seller, with the CRUD operations.
 
 ## Operations
-Add new product
+- Add new product:
 The user presses the button Crear nuevo producto and complete the form with the required data: 
-SKU, Nombre, Cantidad and Precio.
+SKU, Nombre, Cantidad, Precio.
+- Update product:
+The user click the icon edit and modify the data with the new quired updates.
+SKU, Nombre, Cantidad, Precio.
+- Delete product:
+The user click the icon delete.
+
+
 
 
 
