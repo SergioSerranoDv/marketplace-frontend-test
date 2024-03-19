@@ -133,7 +133,7 @@ export const MobileNavigation: React.FC<MobileNavigationProps> = ({ isOPenMobile
                   }}
                 >
                   <MobileNavigationItem>
-                    <a href="/dashboard/">Mis Productos</a>
+                    <a href="/dashboard">Mis Productos</a>
                   </MobileNavigationItem>
                   <MobileNavigationItem>
                     {localStorage.getItem("role")?.includes("admin") && (
