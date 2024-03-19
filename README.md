@@ -210,11 +210,11 @@ When the user login on the application, the role assigned is Seller.
 The admin role is asigned in the database.
 
 ## Aplication Flow
-The user start the flow on  https://test-app-magiclog.wango.pro/. The user will find some products, he can filter by name, price and sku. 
-Log In
+The user start the flow on  https://test-app-magiclog.wango.pro/.
+The user will find some products, he can filter by name, price and sku. 
+- Log In
 In the upper corner the start button is displayed, when the user click will this will promt a modal with the form to log in or sign up.
 ![image](https://github.com/SergioSerranoDv/marketplace-frontend-test/assets/93232800/3bd172ee-3449-441e-ab27-593bc3866b86)
-The user 
 
 # User Manual
 This documentation is designed to provide all the information that require a user to use the marketplace in the web.
